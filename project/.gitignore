@@ -1,0 +1,21 @@
+# Environment variables — never commit real secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+*.egg-info/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Data files (large, generated)
+data/customers_raw.csv
+data/customers_clean.csv
+data/customers_features.csv
+data/ml_output.json
